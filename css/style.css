@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+body {
+        background:#fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+}
+input, select, button, textarea {
+    outline:none;
+}
+.navbar-brand {
+    color:#000;
+    font-weight: 700;
+    font-size: 22px;
+}
+.navbar-brand span {
+    color:red;
+    font-weight: 700;
+}
+.navbar .nav-link {
+    color:#000 !important;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: left;
+    background: rgb(199, 192, 192) !important;
+}
+.navbar .nav-link:hover {
+    color:orangered !important;
+}
+header {
+    background: url(../images/header\ logo.jpeg) no-repeat 100% center / cover;
+    padding:170px 0 170px;
+}
+h1 {
+    color:#fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+h1 span {
+    color:red;
+}
+header p {
+    color:#fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+header .more {
+    padding:10px 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+}
+.phone {
+    color:yellow !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+.projects {
+    padding:50px 0;
+}
+
+.projects .col-xl-3 {
+    margin:20px 0;
+}
+.projects .col-xl-3 span {
+    color:blue;
+    font-weight: 700;
+    font-size: 26px;
+}
+.projects .col-xl-3 p {
+    color:rgb(44, 44, 209);
+    font-size: 18px;
+    font-weight: 500;
+}
+.objects .col-xl-4 {
+    margin:20px 0;
+}
+
+.objects .text {
+    font-size: 22px;
+    font-weight: 500;
+    margin:30px 0;
+    color:rgb(3, 3, 63) !important;
+    opacity:0;
+    transition: 0.7s;
+}
+.objects .col-xl-4:hover .text {
+    opacity:1;
+    cursor: pointer;
+}
+.objects .col-xl-4:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.objects .col-xl-4 img {
+    transition: 0.7s;
+}
+.team {
+    padding:50px 0;
+    background: rgb(211, 206, 206);
+}
+.team .view {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.socials {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgb(44, 199, 193,0.7);
+    opacity:0;
+    transition: 0.7s;
+}
+.socials .fa {
+    color:#fff;
+    font-size: 22px;
+    margin:0 5px;
+}
+.socials:hover {
+    opacity:1;
+    cursor: pointer;
+}
+.team h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color:#000;
+    font-weight: 700;
+}
+.team-item h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin:15px 0;
+}
+.gallery-item {
+    width: 236px;
+    height: 236px;
+    position: relative;
+    margin:10px 10px;
+}
+.gallery-media {
+  position: absolute;  
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background: rgba(31, 212, 236, 0.7);
+  opacity:0;
+  transition: 0.7s;
+}
+.gallery-media a {
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.gallery-media:hover {
+    opacity:1;
+}
+.gallery-media img {
+    width: 230px;
+    height: 230px;
+}
+.gallery h3 {
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#555;
+    margin-bottom: 50px;
+    position: relative;
+}
+.gallery h3::after {
+    content:'';
+    width: 80px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    top:60px;
+    left:50%;
+}
+.gallery {
+    padding:70px 0;
+}
+footer {
+    background: rgb(5, 5, 63);
+    padding:50px 0;
+}
+footer .col-xl-6 h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color:#fff;
+    font-weight: 700;
+}
+footer .fa {
+    font-size: 20px;
+    width: 30px;
+    margin-right: 15px;
+}
+footer ul li {
+    font-size: 18px;
+    font-weight: 700;
+    color:#fff;
+    line-height: 30px;
+}
+footer .col-xl-6 {
+    margin-bottom: 50px;
+}
+.copy {
+    padding:20px;
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    background: rgb(10, 10, 20);
+}
+
+
+
+
